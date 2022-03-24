@@ -1,0 +1,6 @@
+framework module Pods_CallGithub {
+  umbrella header "Pods-CallGithub-umbrella.h"
+
+  export *
+  module * { export * }
+}
