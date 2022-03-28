@@ -13,6 +13,7 @@
 		7C3D582727E1ECD3007FBDBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3D582527E1ECD3007FBDBD /* LaunchScreen.storyboard */; };
 		7C5C997327EC864600197703 /* RepositoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5C997227EC864600197703 /* RepositoryListViewController.swift */; };
 		7C5C997527EC876000197703 /* RepositoryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5C997427EC876000197703 /* RepositoryListCell.swift */; };
+		7C5C997727EC8C2D00197703 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5C997627EC8C2D00197703 /* Repository.swift */; };
 		84F18A25586F3F8D2D8F1554 /* Pods_CallGithub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 310997DA463252FB94ABDD55 /* Pods_CallGithub.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		7C3D582827E1ECD3007FBDBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C5C997227EC864600197703 /* RepositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewController.swift; sourceTree = "<group>"; };
 		7C5C997427EC876000197703 /* RepositoryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListCell.swift; sourceTree = "<group>"; };
+		7C5C997627EC8C2D00197703 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		87FB0A5D7CE156FB77C186AB /* Pods-CallGithub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallGithub.debug.xcconfig"; path = "Target Support Files/Pods-CallGithub/Pods-CallGithub.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +89,7 @@
 				7C3D582827E1ECD3007FBDBD /* Info.plist */,
 				7C5C997227EC864600197703 /* RepositoryListViewController.swift */,
 				7C5C997427EC876000197703 /* RepositoryListCell.swift */,
+				7C5C997627EC8C2D00197703 /* Repository.swift */,
 			);
 			path = CallGithub;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C5C997727EC8C2D00197703 /* Repository.swift in Sources */,
 				7C3D581B27E1ECD1007FBDBD /* AppDelegate.swift in Sources */,
 				7C3D581D27E1ECD1007FBDBD /* SceneDelegate.swift in Sources */,
 				7C5C997327EC864600197703 /* RepositoryListViewController.swift in Sources */,
